@@ -1,0 +1,111 @@
+/* Home.css */
+
+.home-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  height: 100vh;
+  background: linear-gradient(135deg, #ff7eb3, #ffcc00, #ff4500);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 20px;
+}
+
+/* 🔥 Glassmorphism Effect for Overlay */
+.overlay {
+  background: rgba(0, 0, 0, 0.7); /* Darker for better visibility */
+  padding: 50px;
+  width: 85%;
+  max-width: 650px;
+  border-radius: 20px;
+  text-align: center;
+  backdrop-filter: blur(10px); /* Glass effect */
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+}
+
+.overlay:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* ✨ Clean & Visible Title */
+.home-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #ffffff;
+  text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.3);
+}
+
+/* 🍽️ Meal Icon Styling */
+.meal-icon {
+  font-size: 4rem;
+  display: block;
+  margin-bottom: 10px;
+  color: #ffcc00;
+  text-shadow: 0px 0px 10px rgba(255, 204, 0, 0.8);
+}
+
+/* 🏆 Thought / Quote Styling */
+.home-quote {
+  font-size: 1.4rem;
+  color: #ffcc00;
+  font-style: italic;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 8px rgba(255, 204, 0, 0.7);
+}
+
+/* ⭐ Author Name */
+.quote-author {
+  font-size: 1.1rem;
+  color: #e0e0e0;
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+/* 🔥 Stylish Footer */
+.home-footer {
+  margin-top: 30px;
+  font-size: 1.2rem;
+  color: #f1f1f1;
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+
+/* ✨ Animations */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

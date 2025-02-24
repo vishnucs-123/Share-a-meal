@@ -1,0 +1,77 @@
+/* DonateFood.css */
+.donate-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full-screen height (No Scrolling) */
+  padding: 20px;
+}
+
+.donate-form {
+  background: rgba(0, 0, 0, 0.7); /* Dark semi-transparent background */
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  color: white;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.donate-title {
+  font-size: 2.2rem;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.donate-subtext {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  opacity: 0.9;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Grouping input fields in two columns */
+.input-group {
+  display: flex;
+  gap: 10px;
+}
+
+.input-group input {
+  flex: 1;
+}
+
+input,
+textarea {
+  margin-bottom: 12px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  width: 100%;
+}
+
+textarea {
+  resize: none;
+  height: 80px;
+}
+
+.donate-btn {
+  background: #ff4500;
+  color: white;
+  padding: 12px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.donate-btn:hover {
+  background: #e63e00;
+}
